@@ -1,42 +1,25 @@
 {
-  "name": "cra-eslint-prettier",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "^3.3.0"
+  "name": "cra-template-dml-screencasts",
+  "version": "1.0.3",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "description": "The base template for Create React App.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:devmentorlive/cra-template-dml-screencast.git"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "bugs": {
+    "url": "https://github.com/devmentorlive/cra-template-dml-screencast/issues"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.6.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.16.0",
-    "prettier": "^1.19.1"
-  }
+  "files": [
+    "template",
+    "template.json"
+  ]
 }
